@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTA DE NOTAS: ATIVIDADES HÍBRIDAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            CONSULTA DE NOTAS<br> 
+            <span class="subtitulo-atividades">ATIVIDADES HÍBRIDAS</span>
+        </h1>
+        <h2 class="subtitulo">FÍSICA - PROFESSORA GIOVANNA LEPORE</h2> <!-- Subtítulo adicionado aqui -->
+        <div class="form-group">
+            <label for="turma">Selecione a turma:</label>
+            <select id="turma" onchange="loadStudents()">
+                <option value="">Selecione</option>
+                <option value="3EMA">3EMA</option> 
+                <option value="3EMB">3EMB</option> 
+                <option value="3EMC">3EMC</option> 
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="aluno">Selecione o aluno:</label>
+            <select id="aluno">
+                <option value="">Selecione a turma primeiro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="codigo">Digite o código:</label>
+            <input type="text" id="codigo">
+        </div>
+        <button onclick="consultarNota()">Consultar</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p class="footer-text">© 2024 PROFESSORA GIOVANNA LEPORE</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+

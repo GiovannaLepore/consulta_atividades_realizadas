@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaper.jpg); /* Coloque o nome correto do arquivo */
+    background-size: cover; /* Faz com que a imagem cubra toda a área da página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; /* Mantém o fundo branco para contraste */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6f00; /* Um tom vibrante de laranja */
+}
+
+h2 {
+    text-align: center;
+    color: #ff8c00; /* Cor laranja */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #ff8c00; /* Cor laranja */
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff6f00; /* Cor laranja para os rótulos */
+}
+
+input, select {
+    width: 100%; /* Garante que todos os campos tenham 100% da largura do container */
+    padding: 10px; /* Mantém o preenchimento consistente */
+    border: 1px solid #ddd; /* Bordas consistentes */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f00; /* Cor laranja principal para botões */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5600; /* Um tom mais escuro de laranja ao passar o mouse */
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffedd9; /* Fundo laranja claro para o resultado */
+    border: 1px solid #ffaf7b; /* Borda laranja suave */
+    border-radius: 4px;
+}
+
+.atividades-header {
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+}
+
+.atividade-descricao {
+    font-size: 10px; /* Tamanho da fonte para descrições de atividade */
+    margin-bottom: 8px; /* Espaçamento entre as atividades */
+}
+
+.nota-final {
+    font-weight: bold; /* Negrito para a nota final */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #ffaf7b; /* Fundo laranja para o rodapé */
+    border-top: 1px solid #ddd;
+}
+
+.footer-text {
+    color: #333; /* Cor do texto */
+    font-size: 14px; /* Tamanho do texto */
+}
